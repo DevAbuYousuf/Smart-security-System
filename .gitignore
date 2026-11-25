@@ -1,0 +1,45 @@
+
+# Python Virtual Environment
+.venv/
+.venv-1/
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+
+# Node Dependencies
+node_modules/
+
+# Environment Variables
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# Generated Images
+**/event_snapshots/
+**/unknown_faces/
+**/known_faces/
+**/uploads/snapshots/
+
+# AI Model Files
+**/face_model.yml*
+**/labels.json*
+**/security_events.json
+**/*.pt
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backup files and folders
+backup/
+*_backup.py
+*.bak
